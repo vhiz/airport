@@ -11,7 +11,7 @@ export default function Navbar() {
         <span>by mgbeahurike victor</span>
       </div>
       <div className="right">
-        <img src={`http://localhost:3000${currentUser.img}`} alt="" />
+        <img src={`https://airport-p17a.onrender.com${currentUser.img}`} alt="" />
         <button onClick={() => logout()}>Logout</button>
       </div>
     </div>
